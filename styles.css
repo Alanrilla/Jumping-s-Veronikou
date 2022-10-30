@@ -814,13 +814,13 @@ toto je transition effect of the text at the home title page (hlavny obrazok) - 
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
 
   .header .icons a {
     letter-spacing: none;
-    font-size: 1.3rem;
-    padding: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
 }
 
