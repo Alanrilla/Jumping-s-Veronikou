@@ -749,6 +749,14 @@ toto je transition effect of the text at the home title page (hlavny obrazok) - 
   .header.active {
     padding: 2rem;
   }
+
+  .omne {
+    padding: 2rem;
+  }
+
+  .p {
+    padding: 0 1rem 0 1rem;
+  }
 }
 /* -------------------------------------------------------------------my test of medial queries------------------------------------------- */
 
@@ -765,9 +773,9 @@ toto je transition effect of the text at the home title page (hlavny obrazok) - 
     padding: 2rem;
   }
 
-  /* section {
+   /* section {
     padding: 2rem;
-  } */
+  }  */
 }
 
 /* ----------------------------------------------------------for max-width 768px-->new is 1040px--------------------------------------------------------- */
@@ -810,9 +818,9 @@ toto je transition effect of the text at the home title page (hlavny obrazok) - 
   }
 }
 
-/* ------------------------------------------------------------for max-width 450px-------------------------------------------------------------------- */
+/* ------------------------------------------------------------for max-width 550px-------------------------------------------------------------------- */
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   html {
     font-size: 40%;
   }
@@ -820,6 +828,28 @@ toto je transition effect of the text at the home title page (hlavny obrazok) - 
   .header .icons a {
     letter-spacing: none;
     font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+/* ------------------------------------------------------------for max-width 400px----only the logo Jumping s Veronikou is going smaller in side---------------------------------------------------------------- */
+@media (max-width: 400px) {
+ .header .logo {
+    font-size: 2rem;
+  }
+}
+
+
+
+/* ------------------------------------------------------------for max-width 320px-------------------------------------------------------------------- */
+
+@media (max-width: 320px) {
+  html {
+    font-size: 35%;
+  }
+
+  .header .icons a {
+    letter-spacing: none;
+    font-size: 1rem;
     padding: 1rem;
   }
 }
